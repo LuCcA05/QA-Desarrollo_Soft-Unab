@@ -33,10 +33,8 @@ registerUser = driver.find_element(By.XPATH, '//*[@id="Catalog"]/a').click()
 
 
 # INGRESAR DATOS PARA CREAR LA CUENTA
-
 # DATOS PRINCIPALES (OBLIGATORIOS)
 id = {"ID":"00"}
-
 
 userID = driver.find_element(By.CSS_SELECTOR, "input[name='username']")
 userID.send_keys(id["ID"])
