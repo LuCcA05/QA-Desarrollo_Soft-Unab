@@ -3,5 +3,5 @@
 
 ### Test automáticos con Selenium en Python
 - [x] Test automático de Registro y Login
-- [ ] Test automático de Busqueda
+- [ ] Test automático de Búsqueda
 - [ ] Test automático de Agregar productos al Carrito
