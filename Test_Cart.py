@@ -23,8 +23,8 @@ driver.get("https://petstore.octoperf.com/actions/Catalog.action")
 time.sleep(5)
     
 
-# BUSCAR Y AGREGAR PRODUCTOS AL CARRITO
-# BUSCAR GOLDEN
+# BÚSCAR Y AGREGAR PRODUCTOS AL CARRITO
+# BÚSCAR PERRO (GOLDEN)
 keyword = driver.find_element(By.CSS_SELECTOR, "input[name='keyword']")
 keyword.clear()
 keyword.send_keys("Chihuahua")
@@ -40,7 +40,7 @@ time.sleep(2)
 dog_select = driver.find_element(By.XPATH, '//*[@id="Catalog"]/table/tbody/tr[3]/td[5]/a').click()
 time.sleep(2)
 
-# BUSCAR PERSIAN
+# BÚSCAR GATO (PERSIAN)
 keyword = driver.find_element(By.CSS_SELECTOR, "input[name='keyword']")
 keyword.clear()
 keyword.send_keys("Persian")
@@ -55,7 +55,7 @@ time.sleep(2)
 cat_select = driver.find_element(By.XPATH, '//*[@id="Catalog"]/table/tbody/tr[2]/td[5]/a').click()
 time.sleep(2)
 
-# BUSCAR GOLDENFISH
+# BÚSCAR PEZ (GOLDENFISH)
 keyword = driver.find_element(By.CSS_SELECTOR, "input[name='keyword']")
 keyword.clear()
 keyword.send_keys("Goldfish")
